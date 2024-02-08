@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "225898390681",
+    "project_id": "najapp-86aa9",
+    "storage_bucket": "najapp-86aa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225898390681:android:74f920e475b05edd444408",
+        "android_client_info": {
+          "package_name": "com.naj.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225898390681-9hpepui3rsb91fnnq9h77se478aj90lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmrgj9fNX9oe3LvB6lPEes3m7ERQiNnwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225898390681-9hpepui3rsb91fnnq9h77se478aj90lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

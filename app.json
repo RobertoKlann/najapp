@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "NAJ Desk",
+    "slug": "naj",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2F323E"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.naj.app"
+    },
+    "android": {
+      "package": "com.naj.app",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/icon.png",
+        "backgroundColor": "#2F323E"
+      },
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./src/assets/images/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0c3a8b97-1f95-46a1-8749-7295fe3f3387"
+      }
+    },
+    "notification": {
+      "icon": "./src/assets/images/icon.png",
+      "color": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./src/assets/images/icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ]
+  }
+}
